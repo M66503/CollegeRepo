@@ -1,5 +1,134 @@
-num1 = int(input("Enter your first number: "))
-num2 = int(input("Enter your second number: "))
-num3 = int(input("Enter your third number: "))
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
 
-print("The sum of your numbers is:", num1 + num2 + num3)
+print(num1 + num2 + num3)
+
+TWO
+
+# Read the numbers b and h like this:
+b = int(input())
+h = int(input())
+# Print the result with print()
+print(0.5*b*h)
+
+THREE
+
+# Read a string:
+name = input()
+# Print a string:
+print("Hello, ", name,"!", sep='')
+
+FOUR
+
+# Read an integer:
+num = int(input())
+# Print a value:
+print("The next number for the number", num, "is", num+1)
+print("The previous number for the number", num, "is", num-1)
+
+FIVE
+
+# Read the numbers like this:
+nStudents = int(input())
+kApples = int(input())
+# Print the result with print()
+
+# Example of division, integer division and remainder:
+
+print(kApples//nStudents)
+print(kApples%nStudents)
+
+SIX
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+
+seconds = int(input())
+print(seconds//3600, seconds//60)
+
+SEVEN
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+
+hours1 = int(input())
+minutes1 = int(input())
+seconds1 = int(input())
+hours2 = int(input())
+minutes2 = int(input())
+seconds2 = int(input())
+
+print((hours2 - hours1)*3600 + (minutes2 - minutes1)*60 + seconds2 - seconds1)
+
+TWO POINT
+
+ONE
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+
+twoDigit = int(input())
+print(twoDigit//10, twoDigit%10)
+
+TWO
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+
+twoDigit = int(input())
+print(twoDigit%10, twoDigit//10, sep='')
+
+THREE
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+
+
+numMoreThanNine = int(input())
+print((numMoreThanNine//10)%10, numMoreThanNine%10, sep='')
+
+FOUR
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+
+
+num = int(input())
+print((num//10)%10)
+
+FIVE
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+
+threeDigitNum = int(input())
+print((threeDigitNum//100) + ((threeDigitNum//10)%10) + threeDigitNum%10)
+
+SIX
+
+# Read a float:
+# a = float(input())
+# Print a value:
+# print(a)
+
+
+posRealNum = float(input())
+print(int((posRealNum%1)*10))
+
+SEVEN
+
