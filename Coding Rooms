@@ -132,3 +132,25 @@ print(int((posRealNum%1)*10))
 
 SEVEN
 
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+n = int(input())
+m = int(input())
+answer = m//n
+if (m%n > 0):
+    answer+=1
+print(answer)
+
+EIGHT
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+year = abs(int(input()))
+if (year%100 == 0):
+    print(year//100)
+else:
+    print(year//100+1)
