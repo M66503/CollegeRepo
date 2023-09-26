@@ -154,3 +154,26 @@ if (year%100 == 0):
     print(year//100)
 else:
     print(year//100+1)
+
+NINE
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+a = int(input())
+b = int(input())
+n = int(input())
+print(a*n + b*n//100, b*n%100)
+
+AY
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+k = int(input())
+print((k+3)%7)
+
+BEE
+
