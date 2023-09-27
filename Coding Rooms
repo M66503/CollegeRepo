@@ -166,7 +166,7 @@ b = int(input())
 n = int(input())
 print(a*n + b*n//100, b*n%100)
 
-AY
+A
 
 # Read an integer:
 # a = int(input())
@@ -175,5 +175,335 @@ AY
 k = int(input())
 print((k+3)%7)
 
-BEE
+B
 
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+n = int(input())
+print(n//60, n%60)
+
+C
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+a = int(input())
+print((a%30)*12)
+
+D
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+a = int(input())
+b = int(input())
+c = int(input())
+print(a//2 + a%2 + b//2 + b%2 ++ c//2 + c%2)
+
+THREE POINT
+
+ONE
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+integer = int(input())
+if(integer%2 == 0):
+    print("even")
+else:
+    print("odd")
+
+TWO
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+a = int(input())
+b = int(input())
+if(a<b):
+    print(a)
+else:
+    print(b)
+
+THREE
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+x = int(input())
+if (x>0):
+    print(1)
+elif (x<0):
+    print(-1)
+else:
+    print(0)
+
+FOUR
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+integer = int(input())
+if (integer//100 != 0 and integer//1000 == 0):
+    print("YES")
+else:
+    print("NO")
+
+FIVE
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+int1 = int(input())
+int2 = int(input())
+if ((int1>0 and int2 <= 0) or (int1<=0 and int2 > 0)):
+    print("YES")
+else:
+    print("NO")
+
+SIX
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+threeDigitInt = int(input())
+if(threeDigitInt//100<(threeDigitInt//10)%10 and (threeDigitInt//10)%10 < threeDigitInt%10):
+    print("YES")
+else:
+    print("NO")
+
+SEVEN
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+fourDigitInt = int(input())
+if (fourDigitInt//1000 == fourDigitInt%10 and (fourDigitInt//100)%10 == (fourDigitInt//10)%10):
+    print("YES")
+else:
+    print("NO")
+
+EIGHT
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+a = int(input())
+b = int(input())
+c = int(input())
+
+if (a<b):
+    if (a<c):
+        print(a)
+    else:
+        print(c)
+else:
+    if (b<c):
+        print(b)
+    else:
+        print(c)
+
+NINE
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+month = int(input())
+thirty = [9, 4, 6, 11]
+if (month in thirty):
+    print(30)
+elif (month == 2):
+    print(28)
+else:
+    print(31)
+
+A
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+a = int(input())
+b = int(input())
+c = int(input())
+if (a==b and b==c):
+    print(3)
+elif (a==b or b==c or a==c):
+    print(2)
+else:
+    print(0)
+
+B
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+a = int(input())
+b = int(input())
+c = int(input())
+
+if(a==b):
+    print(3)
+elif(a==c):
+    print(2)
+else:
+    print(1)
+
+C
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+collumn1 = int(input())
+row1 = int(input())
+collumn2 = int(input())
+row2 = int(input())
+if(collumn1 == collumn2 or row1 == row2):
+    print("YES")
+else:
+    print("NO")
+
+D
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+collumn = int(input())
+row = int(input())
+if(collumn%2 == row%2):
+    print("YES")
+else:
+    print("NO")
+
+E
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+collumn1 = int(input())
+row1 = int(input())
+collumn2 = int(input())
+row2 = int(input())
+
+if((collumn1%2 == row1%2 and collumn2%2 == row2%2)or(collumn1%2 != row1%2 and collumn2%2 != row2%2)):
+    print("YES")
+else:
+    print("NO")
+
+F
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+collumn1 = int(input())
+row1 = int(input())
+collumn2 = int(input())
+row2 = int(input())
+
+if(abs(collumn2-collumn1)<2 and abs(row2-row1)<2):
+    print("YES")
+else:
+    print("NO")
+
+G
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+collumn1 = int(input())
+row1 = int(input())
+collumn2 = int(input())
+row2 = int(input())
+
+if(abs(collumn2-collumn1)==abs(row2-row1)):
+    print("YES")
+else:
+    print("NO")
+
+H
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+collumn1 = int(input())
+row1 = int(input())
+collumn2 = int(input())
+row2 = int(input())
+
+if(abs(collumn2-collumn1)==abs(row2-row1) or collumn1 == collumn2 or row1 == row2):
+    print("YES")
+else:
+    print("NO")
+
+I
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+collumn1 = int(input())
+row1 = int(input())
+collumn2 = int(input())
+row2 = int(input())
+
+if((abs(collumn2-collumn1)==2 and abs(row2-row1)==1) or (abs(collumn2-collumn1)==1 and abs(row2-row1)==2)):
+    print("YES")
+else:
+    print("NO")
+
+J
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+year = int(input())
+if(year%4 == 0 and (year%100 != 0 or year%400==0)):
+    print("LEAP")
+else:
+    print("COMMON")
+
+K
+
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+month = int(input())
+day = int(input())
+thirty = [9, 4, 6, 11]
+maxDay = 31
+if(month in thirty):
+    maxDay = 30
+elif(month == 2):
+    maxDay = 28
+day+=1
+if(day>maxDay):
+    month+=1
+    day=1
+if(month>12):
+    month=1
+print(month)
+print(day)
+
+L
